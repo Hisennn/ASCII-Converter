@@ -116,6 +116,25 @@ body {
     animation: fadeIn 0.4s ease;
 }
 
+footer > span {
+    color: #888;
+    font-size: 0.8rem;
+    display: block;
+    text-align: center;
+    margin-top: 6rem;
+    opacity: 0;
+    animation: fadeInUp 0.8s ease 1s forwards; /* 1s delay opcional */
+}
+footer > span > a {
+    color: #6366f1;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+footer > span > a:hover {
+    color: #b4b6fd;
+    text-decoration: underline;
+}
+
 /* Input Section */
 .input-section {
     margin-bottom: 2rem;
